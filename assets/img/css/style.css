@@ -1,0 +1,28 @@
+/*Estilos da pagina index*/
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+ 
+.menu {
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos da pagina contato/*
