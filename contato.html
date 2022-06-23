@@ -9,43 +9,46 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li>
+                <a href="contato.html"> Contato</a>
+            </li>
+        </ul>
+    </nav>
 
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-    </ul>
+    <h1 class="center tamanho contato">Entre em contato comigo</h1>
 
-    <h1>Entre em contato comigo</h1>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="Nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup="validarNome()">
+                <div id="TxtNome"></div>
+                <br>
+                <label for="Email">e-mail:</label> <br>
+                <input type="email" id="email">
+                <div id='TxtEmail'></div>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
+                <br>
+                <br>
+                <button onclick="Enviar()">Enviar</button>
+            </form>
+        </div>
+        <h2>Endereço</h2>
 
-    <form>
-        <label for="Nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="Email">e-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+        <p> R. Várzea Paulista, 185 </p>
+        <p>Vila Agricola, Jundiaí - SP</p>
 
-    <h2>Endereço</h2>
-
-    <p> R. Várzea Paulista, 185 </p>
-    <p>Vila Agricola, Jundiaí - SP</p>
-
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.116619485773!2d-46.87181803502889!3d-23.202420234862252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf273fb96656fb%3A0xdf4283b0f2546415!2sBetamelo%20Fit%20-%20Vila%20Agricola!5e0!3m2!1spt-BR!2sbr!4v1655832034439!5m2!1spt-BR!2sbr"
-        width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.116619485773!2d-46.87181803502889!3d-23.202420234862252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf273fb96656fb%3A0xdf4283b0f2546415!2sBetamelo%20Fit%20-%20Vila%20Agricola!5e0!3m2!1spt-BR!2sbr!4v1655832034439!5m2!1spt-BR!2sbr"
+            width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </body>
 
